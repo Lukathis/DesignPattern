@@ -10,6 +10,12 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
     private float temp;
     private float humidity;
 
+    /**
+     * The important part is here.
+     * Need to store the subject in observer: for register/remove
+     * Which is easier to get the Subject
+     * @param weatherData
+     */
     public CurrentConditionsDisplay(Subject weatherData) {
         this.weatherData = weatherData;
         weatherData.registerObserver(this);
