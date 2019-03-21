@@ -3,6 +3,7 @@ package observer.middle;
 import observer.middle.interfaces.Observer;
 import observer.middle.interfaces.Subject;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class WeatherData implements Subject {
@@ -11,6 +12,10 @@ public class WeatherData implements Subject {
     private float temp;
     private float humidity;
     private float pressure;
+
+    public WeatherData() {
+        observers = new ArrayList<>();
+    }
 
     @Override
     public void registerObserver(Observer o) {
@@ -38,5 +43,6 @@ public class WeatherData implements Subject {
         this.temp = temp;
         this.humidity = humidity;
         this.pressure = pressure;
+        measurementChanged();
     }
 }
