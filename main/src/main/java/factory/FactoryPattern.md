@@ -16,3 +16,11 @@ object should close to modification
 In this pattern, we made some improvement: 
 move the "change" part from client to an independent module
 
+## [after] Factory method
+
+PizzaStore in responsible for orderPizza and leave the create pizza task to an abstract method.
+By this way, different type of pizza stores can have their own create pizza method.
+
+## [final] Abstract factory
+
+Decouple pizza and its ingredients.
