@@ -17,7 +17,7 @@ public class Client {
              System.out.println(menuItem.getPrice() + " ");
              System.out.println(menuItem.getDescription());
         }
-        
+
         for (int i = 0; i < lunchItems.length; i++) {
             MenuItem menuItem = lunchItems[i];
             System.out.println(menuItem.getName() + " ");

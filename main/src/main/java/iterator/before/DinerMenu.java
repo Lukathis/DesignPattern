@@ -13,6 +13,8 @@ public class DinerMenu {
         addItem("Diner 2", "Diner 2 description", true, 2.10);
         addItem("Diner 3", "Diner 3 description", true, 3.10);
         addItem("Diner 4", "Diner 4 description", true, 4.10);
+        addItem("Diner 5", "Diner 5 description", true, 5.10);
+        addItem("Diner 6", "Diner 6 description", true, 6.10);
 
     }
 
