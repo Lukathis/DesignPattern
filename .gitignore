@@ -3,3 +3,7 @@
 .idea/
 .gradle/
 gradle
+out/
+
+# ignore certain types
+*.class
