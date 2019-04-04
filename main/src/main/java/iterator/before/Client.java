@@ -11,6 +11,9 @@ public class Client {
         DinerMenu dinerMenu = new DinerMenu();
         MenuItem[] lunchItems = dinerMenu.getMenuItems();
 
+        // The problem is that when you want to traverse different menus,
+        // Need to use different method according to the collections' implementation
+        // Which coupled client with implementation
         for (int i = 0; i < breakfastItems.size(); i++) {
              MenuItem menuItem = breakfastItems.get(i);
              System.out.println(menuItem.getName() + " ");
