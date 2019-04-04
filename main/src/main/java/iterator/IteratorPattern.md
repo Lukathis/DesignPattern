@@ -20,3 +20,18 @@ __Key Points:__
 * next()
 
 # [after] Implement with Java iterator
+
+Clean the code with Java internal java.util.Iterator,
+which is slightly different with ours: one more method.
+
+__Key Points:__
+
+* hasNext()
+* next()
+* remove() : default implementation throw an Unsupported Exception
+
+__About Iterable:__
+
+If you implements Iterable\<T> in a class, 
+must provide an iterator() method which returns: Iterator\<T>
+
