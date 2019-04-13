@@ -44,5 +44,10 @@ So bear the following Design Pattern in mind:
 > 
 > 多用组合，少用继承
 
+## [Instance] Strategy pattern solution with constructor dependency injection
+
+  Use constructor dependency injection to create different duck instances,
+  which will avoid creating lots of inheritance of duck class
+  
     
 
