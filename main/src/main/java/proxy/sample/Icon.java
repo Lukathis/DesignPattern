@@ -1,4 +1,6 @@
 package proxy.sample;
 
-public class Icon {
+public interface Icon {
+
+
 }
